@@ -1,0 +1,136 @@
+.search-box2{
+  width: 200px;
+  margin-top: none;
+  margin-bottom: none;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 15px;
+  margin-right: 250px;
+  font-weight: bold;
+  background-color: #ada0a0; 
+ margin-left: 180px;
+ vertical-align: top;
+} 
+
+
+.menu-bar {
+  display:flex;
+    align-items:left;
+    background-color: none;
+    padding: 10px 20px
+    color: black;
+    
+}
+.menu-icon {
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    margin-right: 20px;
+    padding-left: 20px;
+    vertical-align: top;
+     
+    
+}
+.menu-list { 
+    list-style-type:none;  
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+.menu-item {
+    margin-right: 20px;
+    font-weight: bold;
+    color: #0a0101;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.menu-item:hover {
+    color: #0056b3;
+}
+
+
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background-color: rgba(255, 255, 255, 0.8);
+}
+h1 {
+font-size: 36px;
+margin-bottom: 20px;
+text-align: center;
+}
+p {
+font-size: 18px;
+text-align: center;
+}
+.login-button,
+.register-button {
+padding: 10px 20px;
+background-color: #007BFF;
+color: #fff;
+font-weight: bold;
+border: none;
+cursor: pointer;
+}
+.login-button:hover,
+.register-button:hover {
+background-color: #0056b3;
+}
+.user-select {
+margin-bottom: 20px;
+}
+.search-box,
+.password-input {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+position: relative;
+}
+.search-box::before,
+.password-input::before {
+content: "\f007"; /* Unicode for user icon */
+font-family: "Font Awesome 5 Free";
+position: absolute;
+left: 10px;
+top: 50%;
+transform: translateY(-50%);
+font-size: 16px;
+}
+.password-input::before {
+content: "\f023"; /* Unicode for lock icon */
+}
+a {
+text-decoration: none;
+font-weight: bold;
+color: #333;
+transition: color 0.3s;
+}
+a:hover {
+color: #555;
+}
+.menu-bar:active{
+margin-top: 3px;
+margin-left: 3px;
+box-shadow: none;
+}
+.login-button:active{
+margin-top: 3px;
+margin-left: 3px;
+box-shadow: none;
+}
+.register-button:active{
+margin-top: 3px;
+margin-left: 3px;
+box-shadow: none;
+}
+body {
+background-color: #ada0a0;
+}
